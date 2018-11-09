@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function iniciar() {
+			var x = document.getElementById("titulo");
+			console.log(x.id);
+		}
+		function parrafos() {
+			var misParrafos = document.getElementsByTagName("p");
+			for (var i=0; i < misParrafos.length; i++){
+				console.log("mis parrafos son" + misParrafos[i].innerHTML);	
+			}
+		
+		}
+		function parrafosPorNombre(){
+			var misParrafos = document.getElementsByName("parrafo");//ModeList
+			for (var i=0; i < misParrafos.length; i++){
+				console.log("mis parrafos son" + misParrafos[i].innerHTML);	
+			}
+
+		}
+		function parrafosPorQuery(){
+			var misParrafos = document.querySelector("body >p");
+			var misParrafos1 = document.querySelectorAll("body >p");
+			console.log(misParrafos1);
+		}
+		function parrafoDeSection(){
+			var t = document.getElementById("misection");
+			var parrafosHijos = t.getElementsByTagName("p");
+			
+			for (var i=0; i<parrafosHijos ;i++ ) {
+				console.log(parrafosHijos[i].innerHTML);
+				
+			}
+		}
+	</script>
+	<style type="text/css">
+		{
+			border: 1px;
+			border-style: solid;
+			border-color: #ff4455; 
+		}
+	</style>
+</head>
+<body onload="parrafoDeSection();">
+	<h1 id="titulo">titulo de la pagina</h1>
+	<p name="parrafo">parrafo 1</p>
+	<p name="parrafo">parrafo 2</p>
+	<p>parrafo 3</p>
+	<section id="misection">
+		<p>parrafo 1 de section</p>
+		<p>parrafo 2 de section</p>
+		<p>parrafo 3 de section</p>
+</body>
+</html>

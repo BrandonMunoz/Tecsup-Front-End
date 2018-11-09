@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function iniciar() {
+			var x = document.getElementById("titulo");
+			x.style.backgroundColor = '#ff5322';
+			x.style.textDecoration = 'underline';
+		}
+		function anchodetitulo(){
+			var x = document.getElementById("titulo");
+			alert(x.clientwidth);
+		}
+	</script>
+	<style type="text/css">
+		{
+			border: 1px;
+			border-style: solid;
+			border-color: #ff4455; 
+		}
+	</style>
+</head>
+<body>
+	<h1 id="titulo">titulo de la pagina</h1>
+	<p name="parrafo">parrafo 1</p>
+	<p name="parrafo">parrafo 2</p>
+	<p>parrafo 3</p>
+	<section id="misection">
+		<p>parrafo 1 de section</p>
+		<p>parrafo 2 de section</p>
+		<p>parrafo 3 de section</p>
+	</section>
+	<button onclick="iniciar()">click!</button>
+	<button onclick="anchodetitulo()">click 2!</button>
+</body>
+</html>

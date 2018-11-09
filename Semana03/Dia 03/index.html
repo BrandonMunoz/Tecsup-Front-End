@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>seman3dia</title>
+	<meta charset="utf-8">
+	<!-- <script type="text/javascript" src="js/01-date.js"></script> -->
+	<!-- <script type="text/javascript" src="js/02-math.js"></script> -->
+	<!-- <script type="text/javascript" src="js/03-window.js"></script> -->
+	<script type="text/javascript">
+		function realizar(){
+			window.location = "https://www.binarioconsultores.com/";
+		}
+		function recargar(){
+			window.location = "https://www.binarioconsultores.com/";
+		}
+		function actualizarFecha(){
+			var fecha= new Date();
+			console.log(fecha);
+			setTimeout(()=>{console.log(fecha);
+			},2000);
+		}
+		function actualizarFechaV2(){
+			var fecha=new Date();
+			setInterval(()=>{console.log(fecha);
+			},200);
+			
+		}
+	</script>
+</head>
+<body>
+	<button onclick="realizar()">Abrir pagina</button>
+	<br>
+	<br>
+	<button onclick="recargar()">Recargar</button>
+	<br>
+	<br>
+	<button onclick="actualizarFecha()">Actualizar Fecha</button>
+	<br>
+	<br>
+	<button onclick="actualizarFechaV2()">Actualizar Fecha Version 2</button>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+#main p {
+  color: #00ff00;
+  width: 97%; }
+  #main p .redbox {
+    background-color: #ff0000;
+    color: #000000; }
+
+a {
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  body.firefox a {
+    /*body.firefox=body con clase firefox, body .firefox= class firefox dentro de body*/
+    font-weight: normal; }
+
+#main {
+  width: 50%;
+  color: black; }
+  #main a {
+    font-weight: bold; }
+    #main a:hover {
+      color: red; }
+  #main-sidebar {
+    border: 1px solid; }
+  @media (max-width: 1000px) {
+    #main {
+      float: right; } }
+
+.funky {
+  font-family: Arial;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ff00fa;
+  border-radius: 10px;
+  border-color: #cccccc;
+  border-style: dotted; }
+
+/*# sourceMappingURL=estilos.css.map */

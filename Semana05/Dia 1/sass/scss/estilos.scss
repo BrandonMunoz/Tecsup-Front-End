@@ -1,0 +1,57 @@
+$plomo: #cccccc;
+$grande: 3em !global;
+#main p{
+	color: #00ff00;
+	width: 97%;
+
+	.redbox{
+		background-color: #ff0000;
+		color: #000000;
+	}
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+	body.firefox &{					/*body.firefox=body con clase firefox, body .firefox= class firefox dentro de body*/
+		font-weight: normal;
+	}
+}
+
+
+#main{
+	width: 50%;
+	color: black;
+	a{
+		font-weight: bold;
+		&:hover{
+			color: red;
+		}
+	}
+	&-sidebar{
+		border: 1px solid;
+	}
+
+	@media(max-width: 1000px){
+		float: right;
+	}
+}
+
+
+.funky{
+	font: {
+		family: Arial;
+		size: $grande;
+		weight: bold;
+	}
+	color: #ff0000 + #0000fa;
+	border: {
+		radius: 10px;
+		color: $plomo;
+		style: dotted;
+	}
+}
+

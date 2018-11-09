@@ -1,0 +1,34 @@
+#cajapadre{
+	display: flex;
+	flex-direction: row; /*row, column*/
+	width: 1000px;
+	height:500px;
+	border: 1px solid red;
+	/*flex-direction: row-reverse;*/
+	justify-content: center;  /*flex-end ,flex-start , center, space-between, space-arround*/
+	align-items: flex-end; /*stretch, center, flex-star,flex-end*/
+	flex-wrap: wrap-reverse; /*wrap ,nowrap, wrap-reverse */
+}
+
+#cajapadre > div{
+	height: 145px;
+	margin: 5px;
+	background-color: #CCCCCC;
+}
+
+#caja-1{
+	width: 100px;
+	/*order: 2;*/
+}
+#caja-2{
+	width: 100px;
+	/*order: 1;*/
+}
+#caja-3{
+	width: 100px;
+	/*order: 3;*/
+}
+#caja-4{
+	width: 300px;
+	/*order: 4;*/
+}

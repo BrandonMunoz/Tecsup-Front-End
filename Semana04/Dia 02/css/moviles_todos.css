@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	float: left;
+	width: 100%;
+	padding-right: 250px;
+	margin-right: -240px;
+	box-sizing: border-box;
+}
+section >div {
+	padding: 20px;
+	background-color: #999999;
+}
+aside{
+	float: right;
+	width: 290px;
+	padding: 20px;
+	background-color: #CCCCCC;
+	box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+
+@media(max-width: 1000px){
+	body{
+	background-color: #3333FF;
+	}
+}
+@media(max-width: 760px){
+	body{
+	background-color: #FF33FF;
+	}
+}
+@media(max-width: 480px){
+	body{
+	background-color: #339933;
+	}
+}

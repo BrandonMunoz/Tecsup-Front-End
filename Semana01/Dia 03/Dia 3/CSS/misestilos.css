@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'harry'; 
+	src: url('harry.ttf');
+}
+
+.boton{
+	color: white;
+	border-radius: 2px;
+	background-color: #1997C6
+	font-size: 17px;
+	padding-left: 2px
+	padding-right: 20px
+	padding-top: 2px
+	padding-bottom: 2px
+	font-family: 'harry';
+}
+
+tr:nth-child(odd){ 
+	background-color: #33ff00
+}
+
+tr:first-child{ 
+	background-color: #33ff00
+}
+
+/*con los simbolos del principio y
+ el final se colocan comentarios
+*/
+
+
+tr:last-child{ 
+	background-color: #33ff00
+}
+p.parrafo1{
+	color: #22ff66;
+	text-decoration: underline
+}
+.parrafo1{
+	color:#0000ff;
+	font-size:  40px
+}
+span [name='minombre']{
+	font-size: 8px
+	background-color: #00ff00
+}

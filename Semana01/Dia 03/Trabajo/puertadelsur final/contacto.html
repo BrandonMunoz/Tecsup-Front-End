@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfumeria Puerta del Sur</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<img class="centrado" src="logo.png">
+	<aside>
+    	<div id="navegador">
+    		<ul>
+    			<li><a href="index.html">Inicio</a></li>
+    			<li><a href="catalogo.html">Catalogo</a></li>
+    			<li><a href="galeria.html">Galeria</a></li>
+    			<li><a href="contacto.html">Contacto</a></li>
+    		</ul>
+    	</div>
+    </aside>
+	
+		<form>
+			<fieldset>
+				<h2>Formulario de Pedidos</h2>
+				
+				<div>
+					<label class="text">Nombre:</label>
+					<input  type="text" name="nombre" placeholder="ingrese aqui su nombre">
+				</div>					
+				<div>
+					<label >Telefono:</label>
+					<input type="number" name="telefono" placeholder="ingresar numero telefonico">
+				</div>
+
+				<div>
+					<label >Correo:</label>
+					<input type="email" name="correo" placeholder="ingresar correo electronico">
+				</div>
+
+				<div>
+					<label >Cotización:</label>
+					<br>
+					<textarea cols="100" rows="6" placeholder="Indique los productos para realizar la cotización"></textarea>
+				</div>
+				
+				
+				<br>
+				<input type="button" onclick="window.location='index.html'" value="Regresar" name="">
+				<input type="submit" value="Enviar" name="">
+		</fieldset>
+		</form>
+	
+
+</body>
+</html>

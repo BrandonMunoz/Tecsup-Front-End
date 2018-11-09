@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios Generales</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="icono.png">
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form action="registrar.html" method="get">
+		<table border="1">
+			<tr>
+				<td colspan="2"> <strong>Formulario general</strong></td>
+			</tr>
+			<tr>
+				<td>Nombre</td> 
+				<td><input type="text" name="n" placeholder="Ejm Juan Perez"></td>
+			</tr>
+			<tr>
+				<td>Correo</td> 
+				<td><input type="email" name="co" placeholder="Ejm JuanPerez@glp.com"></td>
+			</tr>
+			<tr>
+				<td>Genero</td>
+				<td>
+					<label>Masculino</label><input type="radio" name="genero" value="m">
+					<label>Femenino</label><input type="radio" name="genero" value="f" checked="">
+				</td>
+			</tr>
+			<tr>
+				<td>Descripcion</td>
+				<td><textarea name="descripcion" cols="25" rows="5" placeholder="Cuentanos algo acerca de ti"></textarea></td>
+			</tr>
+				<td>Lenguaje</td>
+				<td>
+					<input type="checkbox" name="lenguaje" checked>Java
+					<input type="checkbox" name="lenguaje">SCR
+					<input type="checkbox" name="lenguaje">SHP
+					<input type="checkbox" name="lenguaje">Pythom
+				</td>
+			</tr>
+			<tr>
+				<td>Nacionalidad</td>
+				<td>
+					<select name="nacionalidad">
+						<option value="pe">Peruano</option>
+						<option value="ar">Argentino</option>
+						<option value="ve">Venezolano</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Dia de la semana</td>
+				<td>
+					<datalist id="datos">
+						<option value="123123123" label="Telefono 1">
+						<option value="123123123" label=" Telefono 2">
+						<option value="123123123" label="Telefono 3">
+						<option value="123123123" label="Telefono 4">
+					</datalist>
+					<p>
+						<label>Telefono:
+							<input type="tel" name="telefono" list="datos">
+						</label>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="color: #4521a2; opacity:0.5">Completado al 20%</td>
+				<td><progress value="20" max="100">20%</progress></td>
+			</tr>
+			<tr>
+				<td>Charge</td>
+				<td><meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" name="" value="Registrar">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

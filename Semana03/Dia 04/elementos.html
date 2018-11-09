@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/elementos.js"></script>
+	<style type="text/css">
+		#botones{
+			position: absolute;
+			top: 15px;
+			right: 10px;
+
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<h1>Mi titulo</h1>
+		<p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<div id="botones">
+		<button onclick="darFormato()">Dar formato</button>
+		<button onclick="aumentar()">+</button>
+		<button onclick="reducir()">-</button>
+		<button onclick="negrita()"><strong>N</strong></button>
+		<button onclick="oblicua()"><i>I</i></button>
+		<button onclick="subrayado()" style="text-decoration: underline;">S</button>
+		<button onclick="cambiarTexto()">cambiar texto</button>
+		<button onclick="insertarLabel()">insertar label</button>
+	</div>
+
+	<form id="formulario">
+		<label>texto de prueba</label>
+		<input type="text" name="miInputname" id="miInput">
+	</form>
+
+</body>
+</html>

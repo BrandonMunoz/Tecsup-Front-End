@@ -1,0 +1,1 @@
+Abrir el archivo usando npm start, se necesita tener instalado node.js

@@ -1,0 +1,1 @@
+Para abrir el archivo instalar angular desde node.js, crear un nuevo proyecto angular y reemplazar el contenido con la carpeta "portafolioA"

@@ -1,0 +1,16 @@
+<div *ngIf="identificado == true; then contenido1 else contenido2">
+    
+</div>
+
+<ng-template #contenido1>
+    <div class="btn btn-success">
+            contenido del contenido1
+    </div>
+    
+</ng-template>
+
+<ng-template #contenido2>
+    contenido del contenido2
+</ng-template>
+
+

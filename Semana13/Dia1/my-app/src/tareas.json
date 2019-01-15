@@ -1,0 +1,28 @@
+{
+    "tareas":[
+        {
+            "titulo":"Hacer la limpieza",
+            "responsable":"Brandon",
+            "descripcion":"Descripcion de la tarea limpieza",
+            "prioridad":"Alta"
+        },
+        {
+            "titulo":"Lavar el coche",
+            "responsable":"Brandon",
+            "descripcion":"Descripcion de la tarea lavar coche",
+            "prioridad":"Media"
+        },
+        {
+            "titulo":"Pagar las cuentas",
+            "responsable":"Brandon",
+            "descripcion":"Descripcion de la tarea Pagar las cuentas",
+            "prioridad":"Baja"
+        },
+        {
+            "titulo":"Contratar personal",
+            "responsable":"Brandon",
+            "descripcion":"Descripcion de la tarea Contratar persoanl",
+            "prioridad":"Media"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+este es un proyecto en react, asi que debe estar instalado para poder abrirlo es necesario crear un proyecto nuevo con nombre : "my-app" y luego reemplazar el contenido de la carpeta

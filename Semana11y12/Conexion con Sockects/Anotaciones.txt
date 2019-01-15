@@ -1,0 +1,6 @@
+Para abrir la carpeta server se nececita primero tener instalado node.js
+-abrir cmd en la carpeta server
+-escribir: " nodemon dist/ " para abrir server
+-abrir cmd en la carpeta de client y escribir : " ng serve "
+
+para abrir client es necesario tener angular instalado

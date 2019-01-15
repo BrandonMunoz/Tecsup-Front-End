@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<!-- <script type="text/javascript" src="01-jquery-holamundo.js"></script> -->
+	<!-- <script type="text/javascript" src="02-jquery-selectores.js"></script> -->
+	<!-- <script type="text/javascript" src="03-jquery-clases.js"></script> -->
+	<script type="text/javascript" src="04-jquery-parents.js"></script>
+	<style type="text/css">
+		.comida{
+			list-style: none;
+			color: blue;
+			font-size: 18px;
+		}
+		.juegos{
+			list-style: none;
+			line-height: 1.6rem;
+			color: blue;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>This is the first paragraph</p>
+		<p>This is the second paragraph</p>
+		<p>This is the third paragraph</p>
+	</div>
+	<button id="btnHide"> Ocultar </button>
+	<button id="btnHide1"> Ocultar1 </button>
+	<ul id="miul" class="milista">
+		<li>Arroz</li>
+		<li>Huevo</li>
+		<li>Plátano</li>
+		<li>Ají</li>
+	</ul>
+	<button id="btnComida">Modificar Lista</button>
+	<hr>
+	<table border="1" id="tabla1">
+		<tr>
+			<th>Id</th>
+			<th>Descripción</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Caballeros del Zodiaco</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Thundercats</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Marco</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Gárgolas</td>
+		</tr>
+	</table>
+	<button class="btnTabla">Dar estilos a la tabla</button>
+
+	<hr>
+
+	<ul class="juegos">
+		<li>Warcraft - 2018</li>
+		<li>Starcho</li>
+		<li>La tropa Guffy</li>
+	</ul>
+
+	<button id="btnJuegos">Cambiar Clase</button>
+	
+	<hr>
+	
+	<ul>
+		<li><a href="" nombre="red_social">Facebook</a></li>
+		<li><a href="" nombre="red_social">Instagram</a></li>
+		<li><a href="" nombre="red_social">weChat</a></li>
+	</ul>
+</body>
+</html>

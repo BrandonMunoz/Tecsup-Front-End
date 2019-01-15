@@ -1,0 +1,1 @@
+Comenzamos con typescript, una nota importante, para poder ver bien hay qye descomentar el cvodigo ya que como era de practica debiamos hacerlo asi

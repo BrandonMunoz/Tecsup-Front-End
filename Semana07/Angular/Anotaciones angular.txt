@@ -1,0 +1,5 @@
+Pasos para abrir el archivo:
+-instalar angular
+-crear un nuevo archivo angular
+-reemplazar el contenido de la carpeta "1er proyecto angular" en la carpeta creada
+-abrir en "localhost:4200"

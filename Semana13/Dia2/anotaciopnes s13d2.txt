@@ -1,0 +1,39 @@
+aplicacion desde cero, usando cmd para esto debe estar instalado:  npm install -g expo-cli
+
+--cmd--
+expo init FirebaseApp
+
+eligen la opcion "blank" para empezar de cero
+
+descargamos "Expo Project" desde la playStore para poder probar el programa en android(5.0 en adelante)
+
+las laptops deben estar en la misma red que el dispositivo movil, misma red de internet
+
+crear una cuenta en Firebase con nuestra cuenta de google
+
+
+desde esta pagina instalar los elementos para configurar
+https://www.npmjs.com/package/react-native-elements
+npm i react-native-elements
+
+para instalar simple toast
+https://www.npmjs.com/package/react-native-simple-toast
+npm i react-native-simple-toast
+
+para navegar entre pantallas
+https://www.npmjs.com/package/react-navigation
+npm i react-navigation
+
+ayuda a realizar formulario con inputs, etc de manera facil
+https://www.npmjs.com/package/tcomb-form-native
+npm i tcomb-form-native
+
+permite la comunicacion en tiempo real
+https://www.npmjs.com/package/firebase
+npm i firebase
+
+surgieron problemas con iconRight, desinstalar e insatlar la ultima version
+npm uninstall react-native-elements
+hacer un cambio de nombre a la version en package.json
+y luego instalar de nuevo
+npm i react-native-elements
